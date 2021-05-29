@@ -1,0 +1,21 @@
+<!--Nous pouvons également affiner notre sélection en fonction des attributs que nous attribuons aux éléments HTML à l'aide de crochets. Par exemple, dans la liste de liens suivante, nous choisissons de ne rendre le lien vers Amazon que rouge:-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Attribut selector</title>
+    <style>
+      a[href="https://www.amazon.com/"]
+      {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li><a href="https://www.google.com/">Google</a></li>
+      <li><a href="https://www.amazon.com/">Amazon</a></li>
+      <li><a href="https://www.facebook.com/">Facebook</a></li>
+    </ol>
+  </body>
+  <html></html>
+</html>

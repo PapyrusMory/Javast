@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      let counter = 0
+      function hello() {
+        counter++
+        document.querySelector('h1').innerHTML = counter
+
+        if (counter === 10) {
+          alert(`Counter est ${counter}`)
+        }
+      }
+      //document.addEventListener('DOMContentLoaded', function () {})
+      document.querySelector('button').onclick = hello
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>0</h1>
+    <button>Clique-moi</button>
+  </body>
+</html>
